@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Best Shoppers Market</title>
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'core/css/style.css' %}">
+</head>
+<body class="landing-page">
+
+  <img
+    src="{% static 'core/images/logo_white.png' %}"
+    alt="Best Shoppers Market"
+    class="logo-img"
+  >
+
+  <a href="{% url 'onlandform' %}" class="join-btn">JOIN NOW</a>
+
+</body>
+</html>
